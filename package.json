@@ -1,0 +1,12 @@
+{
+  "name": "yt-dl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "J <j@jgarcia.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.0",
+    "youtube-dl": "^1.12.2",
+    "ytdl-core": "^0.29.1"
+  }
+}
