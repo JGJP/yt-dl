@@ -21,7 +21,8 @@ const DL_DIR = "dl"
 
     const info = await youtubedl.getInfo( vidURL, [] )
 
-    const title = info.title.replace(/ /g,"-")
+    let title = info.title
+    title = title.replace(/[^a-zA-Z0-9]+/g,"-")
     const filename = title + ".mp4"
 
     console.log("downloading to "+filename)
