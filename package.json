@@ -5,8 +5,7 @@
   "author": "J <j@jgarcia.jp>",
   "license": "MIT",
   "dependencies": {
-    "arg": "^4.1.0",
-    "youtube-dl": "^2.3.0",
-    "ytdl-core": "^1.0.0"
+    "arg": "^5.0.2",
+    "ytdl-core": "^4.11.5"
   }
 }
